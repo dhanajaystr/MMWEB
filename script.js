@@ -9,6 +9,6 @@ function closeForm() {
 
 document.getElementById("contactForm").addEventListener("submit", function(event) {
     event.preventDefault();
-    alert("Please wait, I’m calling back!");
+    alert("I’m calling back!");
     closeForm();
 });
